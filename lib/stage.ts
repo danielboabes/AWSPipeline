@@ -1,12 +1,12 @@
-import * as cdk from 'aws-cdk-lib';
-import { Construct } from "constructs";
-import { MyLambdaStack } from '/Users/danielboabes/AWSPipeline/lib/lambda-stack';
+// import * as cdk from 'aws-cdk-lib';
+// import { Construct } from "constructs";
+// import { MyLambdaStack } from '/Users/danielboabes/AWSPipeline/lib/lambda-stack';
 
-export class MyPipelineAppStage extends cdk.Stage {
+// export class MyPipelineAppStage extends cdk.Stage {
     
-    constructor(scope: Construct, stageName: string, props?: cdk.StageProps) {
-      super(scope, stageName, props);
+//     constructor(scope: Construct, stageName: string, props?: cdk.StageProps) {
+//       super(scope, stageName, props);
   
-      const lambdaStack = new MyLambdaStack(this, 'LambdaStack', stageName);      
-    }
-}
+//       const lambdaStack = new MyLambdaStack(this, 'LambdaStack', stageName);      
+//     }
+// }
